@@ -1,6 +1,6 @@
 # Learning Randomly Perturbed Structured Predictors for Direct Loss Minimization
 This repository is the official bipartite matchings experiment implementation of paper "Learning Randomly Perturbed Structured Predictors for Direct Loss Minimization".
-In this work we learn the variance as well as the mean of randomized structured predictors and show that it balances better between the learned score function and the randomized noise in structured prediction. 
+In this work we learn the variance as well as the mean of randomized structured predictors and show that it balances better between the learned score function and the randomized noise. 
 
 ## Architecture
 ![Bi-Partite Matching Learning Architecture Diagram](BipartiteMatchingLearningDiagram.jpg?raw=true "Bi-Partite Matching Learning Architecture Diagram")
