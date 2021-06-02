@@ -3,7 +3,7 @@ This repository is the official bipartite matchings experiment implementation of
 In this work we learn the variance as well as the mean of randomized structured predictors and show that it balances better between the learned score function and the randomized noise. 
 
 ## Architecture
-![Bi-Partite Matching Learning Architecture Diagram](BipartiteMatchingLearningDiagram.jpg?raw=true "Bi-Partite Matching Learning Architecture Diagram")
+![Bi-Partite Matching Learning Architecture Diagram](BipartiteMatching.jpg?raw=true "Bi-Partite Matching Learning Architecture Diagram")
 
 The expectancy over Gumbel noise of the loss is derived w.r.t. the parameters w of the signal and w.r.t. the parameters v of the variance
 controller σ directly. The network μ has a first fully connected layer that links the sets of samples to an intermediate representation (with 32 neurons), and a second (fully connected) layer that turns those representations into batches of latent permutation matrices of dimension d by d each. The network σ has a single layer connecting input sample sequences to a single output which is then activated by a softplus activation. We have chosen such an activation to enforce a positive sigma value.
