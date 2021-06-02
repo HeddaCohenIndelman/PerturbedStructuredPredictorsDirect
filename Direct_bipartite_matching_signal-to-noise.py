@@ -7,7 +7,7 @@ import os
 is_cuda = torch.cuda.is_available()
 
 #parameters
-params = {'n_numbers': 40, #sample dimension
+params = {'n_numbers': 5, #sample dimension
           'mu_lr': 0.1,
           'sigma_lr': 1e-6,
           'batch_size': 10,
