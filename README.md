@@ -33,7 +33,5 @@ A test set will be evaluated on the trained model, and the following metrics wil
 
 2. Prop. any wrong: the proportion of sequences where there was at least one error.
 
-3. Kendall's tau: A measure of the similarity between the correct ordering of the input and the ordering learned by the net.
-
 
 
