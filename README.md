@@ -9,11 +9,6 @@ The expectancy over Gumbel noise of the loss is derived w.r.t. the parameters w 
 controller σ directly. The network μ has a first fully connected layer that links the sets of samples to an intermediate representation (with 32 neurons), and a second (fully connected) layer that turns those representations into batches of latent permutation matrices of dimension d by d each. The network σ has a single layer connecting input sample sequences to a single output which is then activated by a softplus activation. We have chosen such an activation to enforce a positive sigma value.
 
 
-## Requirements
-To install requirements:
-
-pip install -r requirements.txt
-
 ## How to run this code
 Settings to consider:
 
