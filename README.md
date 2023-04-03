@@ -1,5 +1,5 @@
 # Learning Randomly Perturbed Structured Predictors for Direct Loss Minimization
-This repository is the official bipartite matchings experiment implementation of paper "Learning Randomly Perturbed Structured Predictors for Direct Loss Minimization".
+This repository is the official bipartite matchings experiment implementation of paper "Learning Randomly Perturbed Structured Predictors for Direct Loss Minimization", [ICML 2021](https://proceedings.mlr.press/v139/indelman21a.html).
 In this work we learn the variance as well as the mean of randomized structured predictors and show that it balances better between the learned score function and the randomized noise. 
 
 ## Architecture
